@@ -13,7 +13,7 @@ spec:
     repoURL: 'https://github.com/surajsunrays/golist'
     targetRevision: main
   destination:
-    namespace: golist
+    namespace: test-wave
     server: 'https://kubernetes.default.svc'
   project: default
   syncPolicy:
