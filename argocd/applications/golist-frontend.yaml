@@ -5,6 +5,8 @@ metadata:
     argocd.argoproj.io/sync-wave: "3"
   name: golist-frontend
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   source:
     path: apps/golist-frontend
