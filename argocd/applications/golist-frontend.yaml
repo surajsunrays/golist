@@ -8,7 +8,7 @@ metadata:
 spec:
   source:
     path: apps/golist-frontend
-    repoURL: 'https://github.com/christianh814/golist'
+    repoURL: 'https://github.com/surajsunrays/golist'
     targetRevision: main
   destination:
     namespace: golist
