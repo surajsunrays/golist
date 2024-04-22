@@ -3,14 +3,14 @@ kind: Application
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "3"
-  name: golist-frontend
+  name: app3
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   source:
-    path: apps/golist-frontend
-    repoURL: 'https://github.com/surajsunrays/golist'
+    path: ./kustomize-app/overlays/staging
+    repoURL: 'https://github.com/codefresh-contrib/gitops-certification-examples.git'
     targetRevision: main
   destination:
     namespace: test-wave
