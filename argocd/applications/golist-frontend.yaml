@@ -10,7 +10,7 @@ metadata:
 spec:
   source:
     path: ./kustomize-app/overlays/staging
-    repoURL: 'https://github.com/codefresh-contrib/gitops-certification-examples.git'
+    repoURL: 'https://github.com/surajsunrays/gitops-certification-examples.git'
     targetRevision: main
   destination:
     namespace: test-wave
